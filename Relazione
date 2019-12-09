@@ -1,4 +1,4 @@
-Terminale ----> Interprete comandi, interni o esterni
+Terminale --> Interprete comandi, interni o esterni
 
 -nano nome.sh: lettura o scrittura di un file .sh(script) -source nome.sh: esegue file .sh(script) -$"variabile": lettura di ciò che è contenuto dentro la variabile
 
@@ -6,7 +6,7 @@ CICLO/LOOP
 
 for nome (in parole);do..(comando/i)...;done
 
-ES
+Esempio:
 
 1)for nome in Bianchi Rossi Verdi
 
