@@ -1,0 +1,35 @@
+Terminale ----> Interprete comandi, interni o esterni
+
+-nano nome.sh: lettura o scrittura di un file .sh(script) -source nome.sh: esegue file .sh(script) -$"variabile": lettura di ciò che è contenuto dentro la variabile
+
+CICLO/LOOP
+
+for nome (in parole);do..(comando/i)...;done
+
+ES
+
+1)for nome in Bianchi Rossi Verdi
+
+do
+
+echo $nome
+
+done
+
+2)for nome in "Mario Bianchi" "Roberto Rossi" "Veronica Verdi"
+
+do
+
+echo $nome
+
+done
+Shell
+
+la shell è un programma che viene chiamato interprete di comandi e mi da la possibilità di interagire con i comandi; ci sono tre flussi (dei dati che possono essere d'ingresso o di uscita)
+
+    Standard IN (tastiera)
+    Standard OUT (schermo)
+    Standard ERROR (schermo) nome.sh è un comando che va a visualizzare se un comando è interno o esterno, se è interno lo esegue XWR XWR XWR sono i permessi che puo avere un file -Il primo è indirizzato all'utente -il secondo è indirizzato al gruppo -il terzo è indirizzato ad altri; Vari comandi possono collaborare tra di loro tramite il comando Pipe
+
+**Variabile **è un contenitore **Comandi interni **: Come ad esempio ciclo For **Comandi esterni **: come ad esempio comando Echo my-script.sh: se a questo file do il permesso ''x'' può essere eseguito come un comando
+chmod+X my-script
